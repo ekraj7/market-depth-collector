@@ -19,17 +19,6 @@ Data is saved to CSV for further quantitative analysis, modeling, or backtesting
 - Modular design for easy extension
 - Configurable ticker list
 
----
-
-## Installation
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/level2_market_collector.git
-cd level2_market_collector
-
-2. pip install -r requirements.txt
-
-3.API_KEY CLIENT_CODE PASSWORD TOTP_KEY
 
 4.python main.py
 
