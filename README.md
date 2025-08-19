@@ -1,13 +1,8 @@
-# Level 2 Market Data Collector
+## Features
 
-## Overview
-Level-2 Data Collector is a Python-based tool designed to fetch and store real-time market depth data for selected NSE stocks using Angel Broking’s SmartAPI. The project focuses on capturing high-frequency trading information, including order book data, volume imbalances, spreads, and mid-prices, which can be used for quantitative research, algorithmic trading strategies, and market analysis.
+Real-time subscription to Level-2 market data using WebSocket
 
-Key Features:
-
-Real-time subscription to Level-2 market data via WebSocket.
-
-Fetches bid/ask data for multiple tickers and calculates key metrics:
+Calculates key metrics for each ticker:
 
 Order Book Imbalance (OBI)
 
@@ -17,13 +12,13 @@ Bid-Ask Spread
 
 Mid-Price
 
-Saves structured data to CSV files for historical analysis.
+Stores structured data in CSV format for historical analysis
 
-Modular design with separate components for authentication, data collection, and calculations.
+Modular design: separate modules for authentication, data collection, and calculations
 
-Safe handling of credentials with TOTP-based authentication.
+TOTP-based authentication for secure access
 
-Technologies Used:
+##Technologies
 
 Python 3.x
 
@@ -31,11 +26,16 @@ Pandas
 
 Angel Broking SmartAPI
 
-pyotp (for TOTP authentication)
+pyotp (TOTP authentication)
 
-WebSocket for real-time data streaming
+WebSocket for real-time streaming
 
-Use Case:
-This project is suitable for aspiring quants, algo traders, and data scientists looking to build a trading research pipeline, backtest strategies, or analyze high-frequency market signals.
+##Use Case
 
+Designed for quants, algorithmic traders, and data scientists who want to:
 
+Build a trading research pipeline
+
+Backtest trading strategies
+
+Analyze high-frequency market signals
