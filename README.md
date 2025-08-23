@@ -1,5 +1,5 @@
 ## Overview
-Level-2 Data Collector is a Python-based tool designed to capture real-time Level-2 market depth data for NSE stocks using Angel Broking’s SmartAPI. It collects bid/ask prices, trade volume, and other market microstructure metrics, then saves them to CSV for further analysis. This tool is ideal for quantitative researchers, algorithmic traders, and data scientists who want to analyze high-frequency market signals or develop trading strategies.
+market-depth-collector is a Python-based tool designed to capture real-time Level-2 market depth data for NSE stocks using Angel Broking’s SmartAPI. It collects bid/ask prices, trade volume, and other market microstructure metrics, then saves them to CSV for further analysis. This tool is ideal for quantitative researchers, algorithmic traders, and data scientists who want to analyze high-frequency market signals or develop trading strategies.
 
 
 ## Features
