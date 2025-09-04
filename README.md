@@ -38,6 +38,8 @@ WebSocket for real-time streaming
 
 Designed for quants, algorithmic traders, and data scientists who want to:
 
+Spoof orders detection engine
+
 Build a trading research pipeline
 
 Backtest trading strategies
